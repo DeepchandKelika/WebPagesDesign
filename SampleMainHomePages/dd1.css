@@ -1,0 +1,99 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+h1{
+	font: bold 20px Tahoma;
+}
+h2 {
+	font: bold 14px Tahoma;
+}
+
+body{
+    width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	/*-webkit-box-pack:center;*/
+	/*text-align:center;*/
+}
+
+header,nav,section,aside,footer {
+	/*display : block;
+	flex:1;*/
+}
+#page_cover{
+	 text-shadow:0px 0px 5px black;
+	padding:20px;
+	border: 5px solid red;
+/*background: yellow; /*<img src="eminem1.jpg"/> yellow;  Use image here.  */
+	background-image:url("eminem1.jpg");
+	}
+#links{
+		
+	background:blue;
+	color:white;
+		
+}
+#links li{
+	/*padding:10px;
+	
+	display:inline-block;	
+    list-style:none;
+	border-right:1px solid white;*/
+}
+#bodywrap{
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;	
+	max-width:1000px;
+    margin:20px 0px;
+	}  
+
+#section_aside{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}	
+#main_content{
+	border:1px solid red;
+	-webkit-box-flex:1;
+	margin:20px;
+	padding:20px;
+}
+
+#side_content{
+	padding:20px;
+	width:200px;
+	margin:20px 0px;
+	border: 3px solid blue;
+	display:-webkit-box;	
+}
+
+#contact_details{
+	text-align:center;
+	padding:20px;
+background:-webkit-radial-gradient(top, black 0%, white 69%,red 82%);
+	}
+
+#navlinks{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+		-webkit-box-pack:center;
+}
+
+#navlinks li{
+	padding:20px;
+	border:3px red solid;
+	margin:10px;
+	list-style:none;
+	-webkit-box-flex:1;
+	font: bold 14px Tahoma;
+	background:green;
+	-webkit-border-radius:15px;
+	
+}
+
+img:hover{
+	display:block;
+	-webkit-transform:scale(1,1);
+}
